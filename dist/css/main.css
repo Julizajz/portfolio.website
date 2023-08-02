@@ -546,6 +546,12 @@ img {
   #about-a .about-info {
     grid-template-areas: "bioimage" "bio" "aw1" "aw2" "aw3";
   }
+  #about-b .skill-section {
+    flex-direction: column;
+  }
+  #about-b .skill-section .icon {
+    margin-bottom: 1rem;
+  }
   #about-c {
     display: none;
   }
