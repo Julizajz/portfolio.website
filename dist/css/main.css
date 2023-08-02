@@ -385,6 +385,22 @@ img {
 #about-b .skill-section {
   display: flex;
   justify-content: space-between;
+  text-align: center;
+}
+#about-b .skill-section .html-icon:hover {
+  color: #e34c26;
+}
+#about-b .skill-section .css-icon:hover {
+  color: #2965f1;
+}
+#about-b .skill-section .sass-icon:hover {
+  color: #cd6799;
+}
+#about-b .skill-section .js-icon:hover {
+  color: #F7E025;
+}
+#about-b .skill-section .react-icon:hover {
+  color: #61dbfb;
 }
 #about-c .about-logo {
   display: grid;
