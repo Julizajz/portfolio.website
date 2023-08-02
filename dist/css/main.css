@@ -382,18 +382,9 @@ img {
   color: #ffbc00;
   margin: 1rem;
 }
-#about-b .progress {
-  overflow: hidden;
-  height: 20px;
-  background: #ccc;
-  border-top: 5px;
-  margin-bottom: 0.6rem;
-}
-#about-b .progress div {
-  height: 100%;
-  color: #fff;
-  text-align: center;
-  background: #ffbc00;
+#about-b .skill-section {
+  display: flex;
+  justify-content: space-between;
 }
 #about-c .about-logo {
   display: grid;

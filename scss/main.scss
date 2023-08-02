@@ -245,22 +245,36 @@ img {
   }
   // About B
   &-b {
-    .progress {
-      overflow: hidden;
-      height: 20px;
-      background: $medium-color;
-      border-top: 5px;
-      margin-bottom: 0.6rem;
+    
+    // .progress {
+    //   overflow: hidden;
+    //   height: 20px;
+    //   background: $medium-color;
+    //   border-top: 5px;
+    //   margin-bottom: 0.6rem;
+      
+    //   div {
+    //     height: 100%;
+    //     color: #fff;
+    //     text-align: center;
+    //     background: $main-color;
+    //   }
+    // }
 
-      div {
-        height: 100%;
-        color: #fff;
-        text-align: center;
-        background: $main-color;
-      }
+    .skill-section{
+      display: flex;
+      justify-content: space-between;
+      // .fa-html5:hover {
+      //   color: #e34c26;
+      // }
+      // .fa-js:hover {
+      //   color: #F7E025;
+      // }
     }
-  }
 
+    
+  }
+  
   // About C
   &-c {
     .about-logo {
