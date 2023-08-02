@@ -76,6 +76,8 @@ img {
   // Header Home
   &-home {
     background: $bg-image no-repeat center right / cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)), url("../img/High_resolution_wallpaper_background_ID_77701341823.jpg");
     height: 100vh;
     color: #fff;
 
@@ -94,6 +96,8 @@ img {
   // Header Inner
   &-inner {
     background: $bg-image no-repeat 20% 30% / cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)), url("../img/High_resolution_wallpaper_background_ID_77701341823.jpg");
     height: 5.5rem;
     border-bottom: 3px solid $main-color;
   }
