@@ -79,7 +79,15 @@
           "aw3";
       }
     }
-
+    
+    &-b{
+      .skill-section{
+        flex-direction: column;
+        .icon{
+          margin-bottom: 1rem;
+        }
+      }
+    }
     &-c {
       display: none;
     }
