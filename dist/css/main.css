@@ -514,9 +514,15 @@ img {
     padding: 1rem;
   }
   #header-home {
-    height: 10rem;
+    height: 55rem;
     border-bottom: 3px solid #ffbc00;
     background-position: 20% 30%;
+    display: flex;
+  }
+  #header-home .nav-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
   }
   #header-home .header-content {
     display: none;
